@@ -59,9 +59,9 @@ const Clients = () => {
   ];
 
   return (
-    <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen pt-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {stats.map((stat, index) => (
             <ClientStat
               key={index}
@@ -71,7 +71,7 @@ const Clients = () => {
           ))}
         </div>
         <div className="w-full h-px bg-gray-200 mb-16"></div>
-        <div className="bg-[#F5F1E3] w-full py-16 px-4 sm:px-6 lg:px-8 -mx-4 sm:-mx-6 lg:-mx-8">
+        <div className="bg-[#F5F1E3] w-screen py-16 px-4 sm:px-6 lg:px-8 -mx-4 sm:-mx-6 lg:-mx-8">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 font-playfair text-center">
               Pioneering AI Solutions

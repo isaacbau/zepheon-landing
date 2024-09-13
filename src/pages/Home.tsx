@@ -9,10 +9,10 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="relative h-screen flex items-center">
-      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto px-8">
+    <div className="relative min-h-screen flex items-center pt-16 pb-24">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto px-4 md:px-8">
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
-          <h1 className="text-5xl md:text-7xl leading-tight font-playfair">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-playfair">
             Pioneering strategic
             <br />
             solutions for the
