@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="bg-transparent sticky top-0 z-50 w-full bg-white">
       <div className="container mx-auto px-4">
@@ -46,9 +50,9 @@ const Navbar: React.FC = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="flex flex-col">
-            <MobileNavItem to="/clients" title="Clients" />
-            <MobileNavItem to="/about" title="About Us" />
-            <MobileNavItem to="/contact" title="Contact" />
+            <MobileNavItem to="/clients" title="Clients" onClick={closeMenu} />
+            <MobileNavItem to="/about" title="About Us" onClick={closeMenu} />
+            <MobileNavItem to="/contact" title="Contact" onClick={closeMenu} />
           </div>
         </div>
       )}
@@ -70,10 +74,19 @@ const NavItem: React.FC<NavItemProps> = ({ to, title }) => (
   </Link>
 );
 
-const MobileNavItem: React.FC<NavItemProps> = ({ to, title }) => (
+interface MobileNavItemProps extends NavItemProps {
+  onClick: () => void;
+}
+
+const MobileNavItem: React.FC<MobileNavItemProps> = ({
+  to,
+  title,
+  onClick,
+}) => (
   <Link
     to={to}
     className="hover:text-[#838383] text-md transition duration-300 font-playfair py-4 px-4 border-b"
+    onClick={onClick}
   >
     {title}
   </Link>
