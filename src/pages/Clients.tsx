@@ -29,14 +29,14 @@ const Clients = () => {
   const stats = [
     {
       number: 5,
-      description: "Innovative startups accelerated in San Francisco",
+      description: "Startups accelerated in San Francisco",
     },
-    { number: 3, description: "Enterprise solutions deployed in Mexico" },
+    { number: 3, description: "Enterprise solutions deployed" },
     { number: 11, description: "AI project integrations" },
     {
       number: 4,
       description:
-        "Industries served: Legal Tech, Consumer, Marketing, Bio-Tech",
+        "Industries served: Legal Tech, Consumer, Architecture, Bio-Tech",
     },
   ];
 
