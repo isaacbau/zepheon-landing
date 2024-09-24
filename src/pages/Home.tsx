@@ -13,13 +13,13 @@ const Home = () => {
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto px-4 md:px-8">
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-playfair">
-            Pioneering strategic
+            Deep
             <br />
-            solutions for the
+            learning algorithms
             <br />
-            evolving business
+            for enterprise grade
             <br />
-            landscape
+            solutions
           </h1>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
