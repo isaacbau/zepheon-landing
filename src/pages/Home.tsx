@@ -15,7 +15,7 @@ const Home = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-playfair">
             Deep
             <br />
-            learning algorithms
+            learning
             <br />
             for enterprise grade
             <br />
