@@ -11,15 +11,16 @@ const About = () => {
             Who We Are
           </h2>
           <p className="text-xl text-gray-700 font-playfair mb-6 leading-relaxed">
-            We're a cutting-edge technology company, specializing in AI
-            integration, custom software development, and strategic consulting.
-            Our team of ex-FAANG engineers and top-tier designers from the world
-            of architecture bring unparalleled expertise to every project.
+            We're a technology company focused on bringing practical AI
+            solutions and custom software development to businesses worldwide.
+            Our team brings together experienced professionals from leading
+            German industrial firms, American tech companies, and renowned
+            venture capital firms.
           </p>
           <p className="text-xl text-gray-700 font-playfair mb-6 leading-relaxed">
-            By leveraging our diverse backgrounds, we create innovative
-            solutions that bridge the gap between advanced technology and
-            real-world business needs.
+            What sets us apart is our international perspective and diverse
+            expertise, allowing us to understand and solve complex business
+            challenges across different markets and industries.
           </p>
         </div>
 
@@ -28,10 +29,9 @@ const About = () => {
             Our Mission
           </h2>
           <p className="text-xl text-gray-700 font-playfair leading-relaxed">
-            At Zepheon, we empower organizations to harness the full potential
-            of cutting-edge technology. Our mission is to deliver bespoke AI
-            solutions and enterprise software that drive innovation, efficiency,
-            and growth.
+            At Zepheon, we believe in making advanced technology accessible and
+            practical. Our goal is to help organizations implement meaningful
+            tech solutions that create real value and drive sustainable growth.
           </p>
         </div>
 
@@ -40,13 +40,13 @@ const About = () => {
             Our Team
           </h2>
           <p className="text-xl text-gray-700 font-playfair leading-relaxed">
-            Zepheon's current team comprises world-class talent drawn from
-            leading tech giants and innovative startups. Our engineers bring
-            experience from FAANG companies, ensuring top-tier technical
-            expertise in every project. Our design team, with backgrounds
-            ranging from cutting-edge UX/UI to award-winning architecture,
-            brings a unique perspective to creating intuitive and visually
-            striking digital experiences.
+            Our team brings together diverse talents from across the globe. Our
+            engineers have built systems at major German automotive companies,
+            American tech firms, and international enterprises. Our business
+            team includes alumni from leading venture capital firms, bringing
+            strategic insight to every project. Combined with our design team's
+            expertise in creating user-centered digital experiences, we offer a
+            well-rounded approach to technological innovation.
           </p>
         </div>
       </div>
