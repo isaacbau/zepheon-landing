@@ -19,7 +19,7 @@ const Home = () => {
             <br />
             solutions
             <br />
-            for enterprise grade
+            for enterprise
             <br />
             applications
           </h1>
