@@ -17,9 +17,11 @@ const Home = () => {
             <br />
             learning
             <br />
+            solutions
+            <br />
             for enterprise grade
             <br />
-            solutions
+            applications
           </h1>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
