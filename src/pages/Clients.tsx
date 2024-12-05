@@ -42,19 +42,19 @@ const Clients = () => {
 
   const aiProjects = [
     {
-      title: "Autonomous Information Retrieval System",
+      title: "Distributed Analytics Mesh Platform",
       description:
-        "Our advanced AI-powered search engine utilizes natural language processing and machine learning algorithms to autonomously gather, analyze, and synthesize information from vast datasets in real-time.",
+        "Enterprise-grade distributed computing framework implementing graph-based data processing pipelines with real-time ETL capabilities. Features automated schema inference, multi-node orchestration, and predictive analytics using ensemble learning methods.",
     },
     {
-      title: "AI-Driven Document Generation",
+      title: "Generative AI Design Studio",
       description:
-        "We've engineered a sophisticated system that leverages deep learning and natural language generation to automatically create context-aware, professionally formatted documents across various industries.",
+        "Image generation platform for Architectural design leveraging different Generative custom models, ControlNet architectures and several other techniques. Implemented AI inference backend, custom fine-tuning pipelines, and real-time image conditioning with low-rank adaptation techniques.",
     },
     {
-      title: "Intelligent Mobile AI Integration",
+      title: "Neural Knowledge Synthesis Engine",
       description:
-        "Our cutting-edge mobile application framework seamlessly integrates AI capabilities, optimizing request routing and processing for enhanced performance and user experience.",
+        "Real-time information retrieval system powered by RAG architecture, live web search, vector embeddings and LLMs to perform dynamic knowledge synthesis across multiple data streams with recursive retrieval capabilities.",
     },
   ];
 
@@ -75,7 +75,7 @@ const Clients = () => {
       <div className="bg-[#F5F1E3] py-16">
         <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 font-playfair text-center">
-            Pioneering AI Solutions
+            Some of our AI Solutions
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {aiProjects.map((project, index) => (
