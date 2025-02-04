@@ -4,9 +4,7 @@ const ContactUs = () => {
   const [formData, setFormData] = useState({
     inquiry: "",
     name: "",
-    email: "",
-    company: "",
-    title: "",
+    description: "",
   });
 
   const handleChange = (e: any) => {
@@ -25,9 +23,7 @@ const ContactUs = () => {
     const body = encodeURIComponent(`
       Inquiry: ${formData.inquiry}
       Name: ${formData.name}
-      Email: ${formData.email}
-      Company: ${formData.company}
-      Title: ${formData.title}
+      Description: ${formData.description}
     `);
     window.location.href = `mailto:about@zepheon.com?subject=${subject}&body=${body}`;
   };
@@ -80,9 +76,11 @@ const ContactUs = () => {
 
               {[
                 { name: "name", label: "Name*", type: "text" },
-                { name: "email", label: "Email*", type: "email" },
-                { name: "company", label: "Company or School", type: "text" },
-                { name: "title", label: "Title", type: "text" },
+                {
+                  name: "description",
+                  label: "Description*",
+                  type: "textarea",
+                },
               ].map((field) => (
                 <div key={field.name}>
                   <label
@@ -91,14 +89,25 @@ const ContactUs = () => {
                   >
                     {field.label}
                   </label>
-                  <input
-                    type={field.type}
-                    id={field.name}
-                    name={field.name}
-                    onChange={handleChange}
-                    required={field.label.includes("*")}
-                    className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-[#B5A642] focus:border-[#B5A642] sm:text-sm"
-                  />
+                  {field.type === "textarea" ? (
+                    <textarea
+                      id={field.name}
+                      name={field.name}
+                      onChange={handleChange}
+                      required={field.label.includes("*")}
+                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-[#B5A642] focus:border-[#B5A642] sm:text-sm"
+                      rows={4}
+                    />
+                  ) : (
+                    <input
+                      type={field.type}
+                      id={field.name}
+                      name={field.name}
+                      onChange={handleChange}
+                      required={field.label.includes("*")}
+                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-[#B5A642] focus:border-[#B5A642] sm:text-sm"
+                    />
+                  )}
                 </div>
               ))}
 
