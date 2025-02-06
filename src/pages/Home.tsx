@@ -19,11 +19,6 @@ const Home = () => {
             <br />
             for enterprise
           </h1>
-          <p className="text-sm mt-4 text-gray-600 max-w-md">
-            We bring machine learning solutions to companies of any size,
-            helping them unlock the power of AI without the complexity and
-            overhead.
-          </p>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <img
@@ -35,6 +30,10 @@ const Home = () => {
             onLoad={() => setIsLoaded(true)}
           />
         </div>
+        <p className="text-sm mt-4 text-gray-600 max-w-md">
+          We bring machine learning solutions to companies of any size, helping
+          them unlock the power of AI without the complexity and overhead.
+        </p>
       </div>
     </div>
   );
