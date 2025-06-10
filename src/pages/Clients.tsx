@@ -28,15 +28,14 @@ const AICard = ({
 const Clients = () => {
   const stats = [
     {
-      number: 5,
+      number: 4,
       description: "Startups accelerated in San Francisco",
     },
-    { number: 3, description: "Enterprise solutions deployed" },
-    { number: 11, description: "AI project integrations" },
+    { number: 2, description: "Enterprise solutions deployed" },
+    { number: 14, description: "AI project integrations" },
     {
-      number: 4,
-      description:
-        "Industries served: Legal Tech, Consumer, Architecture, Bio-Tech",
+      number: 3,
+      description: "Industries served: Legal Tech, Consumer, Architecture",
     },
   ];
 

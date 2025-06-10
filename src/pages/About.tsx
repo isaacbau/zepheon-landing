@@ -7,46 +7,44 @@ const About = () => {
         </h1>
 
         <div className="mb-16">
-          <h2 className="text-3xl font-bold font-playfair mb-6 text-gray-800">
-            Who We Are
-          </h2>
           <p className="text-xl text-gray-700 font-playfair mb-6 leading-relaxed">
-            We're a technology company focused on bringing practical AI
+            Zepheon is a technology company focused on bringing practical AI
             solutions and custom software development to businesses worldwide.
-            Our team brings together experienced professionals from leading
-            German industrial firms, American tech companies, and renowned
-            venture capital firms.
+            Drawing from experience at leading German industrial firms, American
+            tech companies, and renowned venture capital firms, this work
+            represents a synthesis of diverse professional backgrounds.
           </p>
           <p className="text-xl text-gray-700 font-playfair mb-6 leading-relaxed">
-            What sets us apart is our international perspective and diverse
-            expertise, allowing us to understand and solve complex business
+            What distinguishes this approach is an international perspective and
+            varied expertise, enabling deep understanding of complex business
             challenges across different markets and industries.
           </p>
         </div>
 
         <div className="mb-16">
           <h2 className="text-3xl font-bold font-playfair mb-6 text-gray-800">
-            Our Mission
+            The Mission
           </h2>
           <p className="text-xl text-gray-700 font-playfair leading-relaxed">
-            At Zepheon, we believe in making advanced technology accessible and
-            practical. Our goal is to help organizations implement meaningful
-            tech solutions that create real value and drive sustainable growth.
+            At Zepheon, the belief centers on making advanced technology
+            accessible and practical. The focus is helping organizations
+            implement meaningful tech solutions that create real value and drive
+            sustainable growth.
           </p>
         </div>
 
         <div>
           <h2 className="text-3xl font-bold font-playfair mb-6 text-gray-800">
-            Our Team
+            Background & Expertise
           </h2>
           <p className="text-xl text-gray-700 font-playfair leading-relaxed">
-            Our team brings together diverse talents from across the globe. Our
-            engineers have built systems at major German automotive companies,
-            American tech firms, and international enterprises. Our business
-            team includes alumni from leading venture capital firms, bringing
-            strategic insight to every project. Combined with our design team's
-            expertise in creating user-centered digital experiences, we offer a
-            well-rounded approach to technological innovation.
+            This work draws from diverse experiences across the globe. Having
+            built systems at major German automotive companies, American tech
+            firms, and international enterprises, combined with insights gained
+            from leading venture capital environments, brings strategic
+            perspective to every project. The approach integrates technical
+            expertise with user-centered design principles, offering a
+            comprehensive view of technological innovation.
           </p>
         </div>
       </div>
