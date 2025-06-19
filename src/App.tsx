@@ -6,6 +6,7 @@ import ContactUs from "./pages/ContactUs";
 import Clients from "./pages/Clients";
 import AnnouncementBanner from "./components/AnnouncementBanner";
 import About from "./pages/About";
+import Research from "./pages/Research";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/about" element={<About />} />
+            <Route path="/research" element={<Research />} />
             <Route path="/contact" element={<ContactUs />} />
           </Routes>
         </main>

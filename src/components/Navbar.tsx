@@ -22,6 +22,7 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center space-x-8">
             <NavItem to="/clients" title="Clients" />
             <NavItem to="/about" title="About Us" />
+            <NavItem to="/research" title="Research" />
             <NavItem to="/contact" title="Contact" />
           </div>
           <button
@@ -52,6 +53,11 @@ const Navbar: React.FC = () => {
           <div className="flex flex-col">
             <MobileNavItem to="/clients" title="Clients" onClick={closeMenu} />
             <MobileNavItem to="/about" title="About Us" onClick={closeMenu} />
+            <MobileNavItem
+              to="/research"
+              title="Research"
+              onClick={closeMenu}
+            />
             <MobileNavItem to="/contact" title="Contact" onClick={closeMenu} />
           </div>
         </div>

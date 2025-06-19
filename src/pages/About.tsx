@@ -17,7 +17,11 @@ const About = () => {
           <p className="text-xl text-gray-700 font-playfair mb-6 leading-relaxed">
             What distinguishes this approach is an international perspective and
             varied expertise, enabling deep understanding of complex business
-            challenges across different markets and industries.
+            challenges across different markets and industries. Our research
+            initiatives focus specifically on consumer AI, exploring how local
+            mini models can transform fashion, health, and consumer product
+            industries by running entirely on user devices without requiring
+            expensive GPU infrastructure.
           </p>
         </div>
 
@@ -29,7 +33,11 @@ const About = () => {
             At Zepheon, the belief centers on making advanced technology
             accessible and practical. The focus is helping organizations
             implement meaningful tech solutions that create real value and drive
-            sustainable growth.
+            sustainable growth. Through our research, we're specifically working
+            to democratize AI for all founders by eliminating the traditional
+            barriers of GPU requirements and complex infrastructure, making
+            powerful AI capabilities available to every entrepreneur regardless
+            of technical resources or budget.
           </p>
         </div>
 

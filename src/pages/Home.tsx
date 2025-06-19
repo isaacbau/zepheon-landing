@@ -22,9 +22,9 @@ const Home = () => {
               for enterprise
             </h1>
             <p className="text-sm text-gray-600 max-w-md">
-              We bring machine learning solutions to companies of any size,
-              helping them unlock the power of AI without the complexity and
-              overhead!
+              We unlock AI for businesses without the complexity. Our research
+              makes consumer AI accessible to all founders through GPU-free
+              local models.
             </p>
           </div>
 
